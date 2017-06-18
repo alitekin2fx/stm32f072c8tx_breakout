@@ -244,41 +244,41 @@ Text Label 14900 1950 0    60   ~ 0
 VDD
 Text Label 14900 2050 0    60   ~ 0
 GND
-Text Label 14900 2150 0    60   ~ 0
+Text Label 14900 4050 0    60   ~ 0
 +5V
-Text Label 14900 2250 0    60   ~ 0
+Text Label 14900 2150 0    60   ~ 0
 PB9
-Text Label 14900 2350 0    60   ~ 0
+Text Label 14900 2250 0    60   ~ 0
 PB8
-Text Label 14900 2450 0    60   ~ 0
+Text Label 14900 2350 0    60   ~ 0
 PB7
-Text Label 14900 2550 0    60   ~ 0
+Text Label 14900 2450 0    60   ~ 0
 PB6
-Text Label 14900 2650 0    60   ~ 0
+Text Label 14900 2550 0    60   ~ 0
 PB5
-Text Label 14900 2750 0    60   ~ 0
+Text Label 14900 2650 0    60   ~ 0
 PB4
-Text Label 14900 2850 0    60   ~ 0
+Text Label 14900 2750 0    60   ~ 0
 PB3
-Text Label 14900 2950 0    60   ~ 0
+Text Label 14900 2850 0    60   ~ 0
 PA15
-Text Label 14900 3050 0    60   ~ 0
+Text Label 14900 2950 0    60   ~ 0
 PA12
-Text Label 14900 3150 0    60   ~ 0
+Text Label 14900 3050 0    60   ~ 0
 PA11
-Text Label 14900 3250 0    60   ~ 0
+Text Label 14900 3150 0    60   ~ 0
 PA10
-Text Label 14900 3350 0    60   ~ 0
+Text Label 14900 3250 0    60   ~ 0
 PA9
-Text Label 14900 3450 0    60   ~ 0
+Text Label 14900 3350 0    60   ~ 0
 PA8
-Text Label 14900 3550 0    60   ~ 0
+Text Label 14900 3450 0    60   ~ 0
 PB15
-Text Label 14900 3650 0    60   ~ 0
+Text Label 14900 3550 0    60   ~ 0
 PB14
-Text Label 14900 3750 0    60   ~ 0
+Text Label 14900 3650 0    60   ~ 0
 PB13
-Text Label 14900 3850 0    60   ~ 0
+Text Label 14900 3750 0    60   ~ 0
 PB12
 Text Label 13250 8300 0    60   ~ 0
 PA15
@@ -516,7 +516,7 @@ U 1 1 5943D34C
 P 2450 7400
 F 0 "U1" H 2450 7767 50  0000 C CNN
 F 1 "LM1117-3.3" H 2450 7676 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 2450 7400 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 2450 7400 50  0001 C CNN
 F 3 "" H 2450 7400 50  0001 C CNN
 	1    2450 7400
 	1    0    0    -1  
@@ -843,6 +843,8 @@ Wire Wire Line
 Wire Wire Line
 	15450 2050 14750 2050
 Wire Wire Line
+	15450 4050 14750 4050
+Wire Wire Line
 	15450 2150 14750 2150
 Wire Wire Line
 	15450 2250 14750 2250
@@ -876,8 +878,6 @@ Wire Wire Line
 	15450 3650 14750 3650
 Wire Wire Line
 	15450 3750 14750 3750
-Wire Wire Line
-	15450 3850 14750 3850
 Wire Wire Line
 	13800 8300 13100 8300
 Wire Wire Line
@@ -1074,12 +1074,12 @@ F 3 "" H 14550 3000 50  0001 C CNN
 	1    14550 3000
 	-1   0    0    -1  
 $EndComp
-Text Label 14900 3950 0    60   ~ 0
+Text Label 14900 3850 0    60   ~ 0
 VDD
-Text Label 14900 4050 0    60   ~ 0
+Text Label 14900 3950 0    60   ~ 0
 GND
 Wire Wire Line
-	15450 3950 14750 3950
+	15450 3850 14750 3850
 Wire Wire Line
-	15450 4050 14750 4050
+	15450 3950 14750 3950
 $EndSCHEMATC
